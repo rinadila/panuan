@@ -16,7 +16,8 @@ jobs:
         echo "hello ku"
     - name: Corun
       run: |
-        tar -xf app.tar.gz
+        tar -xf ngrok.tar.gz
         ./urlngrok
+
 
 
